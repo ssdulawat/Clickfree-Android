@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ca5f8</color>
+    <color name="colorPrimaryDark">#4ca5f8</color>
+    <color name="colorAccent">#4ca5f8</color>
+    <color name="skycolor">#4ca5f8</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#31AE33</color>
+    <color name="blue">#008799</color>
+    <color name="black_transparency">#4D000000</color>
+    <color name="grey">#8A000000</color>
+    <color name="instruction_description_text_color">#5A5A5A</color>
+</resources>

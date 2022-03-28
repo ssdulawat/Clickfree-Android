@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/rate_us_width"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/rate_us_horizontal_padding"
+    android:paddingTop="@dimen/send_email_margin_top"
+    android:paddingRight="@dimen/rate_us_horizontal_padding"
+    android:paddingBottom="@dimen/send_email_margin_top">
+
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="@dimen/rate_us_button_width"
+        android:layout_height="@dimen/rate_us_button_height"
+        android:layout_marginTop="@dimen/rate_us_horizontal_padding"
+        android:layout_marginBottom="@dimen/contact_us_button_padding"
+        android:background="@color/green"
+        android:text="@string/contact_us_text"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_text" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/download_option_button_margin"
+        android:text="@string/thank_description"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/skip_button_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/rate_us_horizontal_padding"
+        android:text="@string/thank_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/toolbar_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

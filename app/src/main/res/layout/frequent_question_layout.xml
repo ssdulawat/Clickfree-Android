@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/fq_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:theme="@style/ToolbarColoredBackArrow"
+                app:titleTextAppearance="@style/AppTheme.Toolbar.Title">
+
+                <ImageView
+                    android:id="@+id/back_arrow_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:padding="@dimen/done_text_padding"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_back_arrow" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <Button
+            android:id="@+id/contact_us_button"
+            android:layout_width="@dimen/contact_us_button_width"
+            android:layout_height="@dimen/contact_us_button_height"
+            android:layout_marginTop="@dimen/contact_us_button_margin_top"
+            android:background="@color/green"
+            android:text="@string/contact_us_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/skip_button_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fq_reach_us_text" />
+
+        <TextView
+            android:id="@+id/fq_reach_us_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/send_button_padding"
+            android:gravity="center"
+            android:text="@string/reach_us_text"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/thanks_text_size"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frequent_questions_recycler" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/frequent_questions_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fq_toolbar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

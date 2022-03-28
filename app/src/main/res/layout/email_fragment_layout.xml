@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/rate_us_horizontal_padding"
+        android:layout_marginLeft="@dimen/rate_us_horizontal_padding"
+        android:background="@color/green"
+        android:paddingLeft="@dimen/send_button_padding"
+        android:paddingRight="@dimen/send_button_padding"
+        android:text="@string/submit_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_text_underline"
+        app:layout_constraintLeft_toRightOf="@+id/edit_text_underline" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_edit_hint"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:theme="@style/EditText"
+        app:layout_constraintLeft_toLeftOf="@+id/email_hint"
+        app:layout_constraintTop_toBottomOf="@+id/email_hint" />
+
+    <ImageView
+        android:id="@+id/phone_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/phone_icon_margin_top"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/next_button_margin_top"
+        android:padding="@dimen/skip_button_margin_top"
+        android:text="@string/next_button_text"
+        android:textColor="@color/green"
+        android:textSize="@dimen/skip_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/skip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/next_button_margin_top"
+        android:padding="@dimen/skip_button_margin_top"
+        android:text="@string/skip_button_text"
+        android:textSize="@dimen/skip_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/send_email_margin_top"
+        android:gravity="center"
+        android:text="@string/email_fragment_description_text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/thanks_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_image" />
+
+    <TextView
+        android:id="@+id/email_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/email_hint_text_margin_top"
+        android:text="@string/your_email_text"
+        app:layout_constraintLeft_toLeftOf="@id/description"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <View
+        android:id="@+id/edit_text_underline"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="@dimen/underline_height"
+        android:background="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="@+id/email_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="@dimen/progress_width"
+        android:layout_height="@dimen/progress_width"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

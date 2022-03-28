@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * (C) Copyright 2014 mjahnen <jahnen@in.tum.de>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="app_name">ClickFree</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="error_usb_connect">Please connect (reconnect) USB storage</string>
+    <string name="connecting_to_usb">Could not connect to device. Retrying…</string>
+    <string name="usb_connected">USB connected</string>
+    <string name="loading_files">Loading list of files…</string>
+
+    <string name="delete">Delete</string>
+    <string name="create_file">Create file</string>
+    <string name="create_dir">Create directory</string>
+    <string name="create_big_file">Create big file</string>
+    <string name="rename">Rename</string>
+    <string name="paste">Paste</string>
+    <string name="move">Move</string>
+    <string name="name">Name:</string>
+    <string name="content">Content:</string>
+    <string name="directory">Directory</string>
+    <string name="file">File</string>
+    <string name="copy_to_usb">Copy to USB</string>
+    <string name="request_write_storage_perm">Please let this app access your storage to copy files from USB</string>
+    <string name="permission_granted">Permission granted. Please try again now.</string>
+    <string name="permission_denied">Permission denied. Cannot copy from USB.</string>
+    <string name="copy_folder_to_usb">Copy folder to USB</string>
+    <string name="drawer_open">Show Devices</string>
+    <string name="drawer_close">Close</string>
+    <string name="error_erasing_failed">Error. Erasing failed.</string>
+    <string name="storage_cleared">External Device Cleared Successfully</string>
+    <string name="use_camera">Use camera</string>
+    <string name="use_camera_decs">Save space by recording photos and videos directly to your backup memory</string>
+    <string name="error_setting_up">Error connecting to external device. Please try to reconnect it.</string>
+    <string name="photo_video_backup">Saving Photos/Videos</string>
+    <string name="backup_completed">Backup completed successfully</string>
+    <string name="writing_videos">Writing videos to USB storage…</string>
+    <string name="writing_images">Writing photos to USB storage…</string>
+    <string name="error_backup_failed">Backup failed</string>
+    <string name="ok">OK</string>
+    <string name="photos_saved">Photos saved successfully</string>
+    <string name="photos_saved_desc">Your photos have been saved to the external device</string>
+    <string name="saving_contacts">Saving Contacts…</string>
+    <string name="saving_contacts_file">Saving contacts to file…</string>
+    <string name="writing_contacts">Writing contacts to USB storage…</string>
+    <string name="contacts_copied_success">Contacts Saved Successfully</string>
+    <string name="contacts_saved_desc">Your contacts have been saved to the external device</string>
+    <string name="saving_photo">Saving photo/video file…</string>
+    <string name="media_file_saved">File Saved Successfully</string>
+    <string name="photo_saved_desc">The file has been saved to the external device</string>
+    <string name="saving_everything">Saving everything</string>
+    <string name="content_saved">Content Saved Successfully</string>
+    <string name="content_saved_desc">Your contacts and photo/video files have been saved to the external device.</string>
+    <string name="saving_photos_and_videos_with_progress">Saving photos and videos: %1d of %2d</string>
+    <string name="saving_photos_and_videos">Saving photos and videos…</string>
+    <string name="view_files">View Files</string>
+    <string name="clearing_storage">Clearing USB storage…</string>
+    <string name="storage_cleared_desc">All files have been removed from the external device</string>
+    <string name="download_in_progress">Backup in progress</string>
+    <string name="otg_not_supported">USB OTG mode is not supported on this device.</string>
+    <string name="device_not_supported">Device not supported</string>
+    <string name="backup_everything">Backup Everything</string>
+    <string name="tap_here">Tap here</string>
+    <string name="erase_device">Erase device</string>
+    <string name="frequent_questions">FAQ</string>
+    <string name="stop">Stop</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_cancel_backup">Backup has not finished yet. Are you sure you wish to stop?</string>
+    <string name="stop_backup">Stop backup</string>
+    <string name="connecting_to_backup_device">Connecting to backup device…</string>
+    <string name="stopping">Stopping backup…</string>
+    <string name="storage_clearing_failed">USB storage clearing failed.</string>
+    <string name="select_photo_video">Do you wish to make a photo or record video?</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="redirect_url">https%3A%2F%2Fwww.google.com%2F</string>
+    <string name="instagram_app_id">1723053561169626</string>
+    <string name="instagram_app_secret">2618ad74a69b5939faec6a7433d08016</string>
+    <string name="facebook_app_id">131694084920793</string>
+    <string name="fb_login_protocol_scheme">fb131694084920793</string>
+    <string name="fb_backup_text">Facebook Photos to Backup</string>
+    <string name="instagram_backup_text">Instagram Photos to Backup</string>
+    <string name="notification_text_continue">Continue</string>
+    <string name="notification_title_confirm">Confirm</string>
+    <string name="notification_title_token_expired">Token expired</string>
+    <string name="notification_logged_in_description_text">You have already logged in as: %1$s</string>
+    <string name="notification_token_expired_description_text">Your access token expired. Please, log in again.</string>
+    <string name="download_all_text">Download all</string>
+    <string name="select_photos_text">Select photos</string>
+    <string name="select_download_text">Please, select download option</string>
+    <string name="done_button_text">Done</string>
+    <string name="thank_for_download_text">Thanks for downloading!</string>
+    <string name="skip_button_text">Skip</string>
+    <string name="next_button_text">Next</string>
+    <string name="instruction_description">Tap "backup everything" to get started. The first backup can take a long time if you have a lot of pictures and videos. Don\'t worry, you can stop the backup at any time and resume where you left off next time. You can find your backed-up pictures and videos by tapping "view backup storage."</string>
+    <string name="reach_us_text">If you need help you can always reach \nus via</string>
+    <string name="welcome_text">WELCOME!\nHere are a few helpful tips:</string>
+    <string name="enter_email_text">IMPORTANT: We never see any of your \npictures, contact or information your \ndevice\n\nFor more help or to ask us a question,\nsimply enter your email now</string>
+    <string name="contact_form_text">Contact form</string>
+    <string name="lets_start_text">Let\'s Get Started!</string>
+    <string name="your_email_text">Your email</string>
+    <string name="submit_text">Submit</string>
+    <string name="email_edit_hint">your@email.com</string>
+    <string name="thank_text">Thank you</string>
+    <string name="rate_now_text">Rate now</string>
+    <string name="rate_not_now_text">Not now</string>
+    <string name="contact_us_text">Contact us</string>
+    <string name="permission_access_text">Permission to access</string>
+    <string name="coming_soon_text">Coming soon</string>
+    <string name="feature_will_be_added_text">This feature will be added soon.</string>
+    <string name="photo_video_permission_description">Now you will be prompted for\npermission to access photos and\nmedia files. Please tap allow. We never\nsee any of your photos, media files or\ndevice information. The device\ncannot do its job without access!</string>
+    <string name="contact_permission_description">Now you will be prompted for\npermission to access contacts.\nPlease tap allow. We never\nsee any of your contacts. The device\ncannot do its job without access!</string>
+    <string name="camera_permission_description">To take pictures and videos directly\nto external storage, tap "use\ncamera." When prompted for\npermission to access camera and\nmicrophone tap allow.</string>
+    <string name="plug_text">Plug</string>
+    <string name="fb_data_retrieving_text">Facebook data retrieving</string>
+    <string name="instagram_data_retrieving_text">Instagram data retrieving</string>
+    <string name="sending_title_text">Sending email</string>
+    <string name="sending_description_success_text">Email successfully sent</string>
+    <string name="sending_description_fail_text">Email sending failed</string>
+    <string name="email_fragment_description_text">IMPORTANT: We never see any of your\npictures, contacts or information on your\ndevice\n\nFor more help or to ask us a question,\nsimply enter your email now</string>
+    <string name="frequent_question_first_title">The most important ingredient for a successful backup: time! If you’ve got thousands upon thousands of photos and videos, a complete backup will take several hours to complete.</string>
+    <string name="frequent_question_second_title">ClickFree can’t do anything without your permission.</string>
+    <string name="frequent_question_third_title">Using ClickFree with Android is easy, but a few Android devices won’t work.(iPhone and iPad users can ignore this one.)</string>
+    <string name="frequent_question_first_description">Most phones store only a few images on the device and the majority in the cloud. ClickFree needs to make sure it downloads and saves every single one of those precious memories. We recommend having a full battery and setting aside several hours for your first backup. However, if you don’t have the time for that, don’t worry! The great thing about ClickFree is that it starts every backup where it left off. So you can stop a backup by hitting “cancel,” and the next time you start a backup, it will only have to save the remaining pictures. After you have completed a full backup, subsequent backups will take only a few minutes to complete. It’s your choice! Either set aside several hours for a first backup, or do it in stages when you have time. Either way, your pictures will be saved!</string>
+    <string name="frequent_question_second_description">When you first launch and use the ClickFree app, you will be asked for several different permissions. It will ask for your permission to access your photos and contacts when you attempt to back them up. If you attempt to take pictures or videos with the “use camera” feature, it will ask for permission to access your camera and microphone. You must tap “OK” or “Allow” to all permissions for ClickFree to work. If you tap “Don’t Allow,” ClickFree will do nothing. This is important: granting permission will NOT give Datalogixx or any company access to your device, your information or your photos. But ClickFree can’t save your photos, videos and contacts if you don’t give it permission to access them. Makes sense when you think about it that way! If you hit “deny” for any of these permissions, you can fix the problem by going to your device’s settings. For iPhone and iPad the steps are as follows: Go to settings Scroll down to find ClickFree and tap it. (you will find it listed alphabetically among your apps). For each setting shown below, move the slider switch to the right, which is the green position as shown. Now your ClickFree can get to work!</string>
+    <string name="frequent_question_third_description">Android devices can only talk to devices like ClickFree if they are equipped with a feature called “OTG.” This is an issue with Android and unfortunately one we can’t do anything to change! The overwhelming majority of Android devices today support OTG. But some don’t. Many pay-as-you go phones and some Chinese brands of Android phone do not support OTG. Sometimes company-issued phones that you get from work will not support OTG. As a general rule, Samsung phones from the past several years will work, provided they are not pay-as-you-go or issued to you from work. The best way to determine whether your Android device supports OTG is to search for the specific make and model of your phone online or contact the manufacturer. If you have ever used an external drive with your device before, your device definitely supports OTG. Another method that may work is to download an “OTG checker” app like this one. It may be able to tell you if your device supports OTG. This app is free to download and use. This does NOT apply to Apple devices. Apple devices will work as long as they are up to date with the latest iOS.</string>
+    <string name="thank_description">Thank you for using \'Mo Disc\'. We\nwould like to make sure that you are\nhappy with our app, Please drop us an email and describe your\nexperience with it.</string>
+</resources>
